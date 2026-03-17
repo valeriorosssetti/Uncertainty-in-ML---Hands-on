@@ -1,0 +1,9 @@
+matplotlib
+seaborn
+pandas
+scikit-learn
+scikit-image
+tensorflow
+sklearn-quantile
+nbqa
+ruff

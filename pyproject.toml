@@ -1,0 +1,43 @@
+[tool.ruff]
+line-length = 180
+fix = true
+unfixable = []
+
+select = [
+    "F",
+    "E",
+    "W",
+    "YTT",
+    "B",
+    "Q",
+    "T10",
+    "INT",
+    "PL",
+    "PIE",
+    "PYI",
+    "TID",
+    "ISC",
+    "TCH",
+    "C4",
+    "PGH",
+    "RUF",
+    "S102",
+    "NPY002",
+    "PERF",
+    "FLY",
+    "G",
+]
+
+[tool.ruff.per-file-ignores]
+
+[tool.ruff.isort]
+lines-after-imports = 2
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[pytest]
+log_cli = true
